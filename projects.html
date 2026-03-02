@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Projects — Gursahib Singh</title>
+    <meta name="description"
+        content="All projects by Gursahib Singh — AI-powered platforms, hackathon winners, and full-stack applications." />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Unbounded:wght@400;500;600;700;800;900&family=Newsreader:ital,wght@0,300;0,400;0,600;1,300;1,400;1,600&family=JetBrains+Mono:wght@300;400;500&display=swap"
+        rel="stylesheet" />
+    <link rel="stylesheet" href="style3.css" />
+</head>
+
+<body>
+
+    <!-- NAV -->
+    <nav class="nav" id="mainNav">
+        <div class="nav-inner">
+            <a href="index3.html" class="nav-logo">GS<span class="accent">.</span></a>
+            <div class="nav-links" id="navLinks">
+                <a href="index3.html">Home</a>
+                <a href="projects.html" style="color:var(--lime);">Projects</a>
+                <a href="research.html">Research</a>
+                <a href="index3.html#skills">Skills</a>
+                <a href="index3.html#contact" class="btn-talk">Let's Talk</a>
+            </div>
+            <button class="theme-toggle" id="themeToggle" aria-label="Toggle theme">
+                <span class="toggle-icon" id="themeIcon">🌙</span>
+                <span class="toggle-track"></span>
+                <span class="toggle-label">Theme</span>
+            </button>
+            <div class="burger" id="burger" aria-label="Menu">
+                <span></span><span></span><span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- PAGE HERO -->
+    <section class="page-hero">
+        <div class="wrap">
+            <a href="index3.html" class="back-link rv">← Back to Home</a>
+            <p class="eyebrow rv"><span class="line"></span> All Projects</p>
+            <h1 class="rv">Ideas shipped <span class="serif-i">into&nbsp;the&nbsp;world</span></h1>
+            <p class="page-sub rv">From hackathon sprints to production platforms — every project is built to solve a
+                real problem using AI, modern web frameworks, and a sharp eye for user experience.</p>
+        </div>
+    </section>
+
+    <!-- PROJECT GRID -->
+    <div class="wrap">
+        <div class="listing-grid">
+
+            <!-- Verbi -->
+            <div class="listing-card rv">
+                <span class="card-tag">EdTech · GenAI</span>
+                <h3>Verbi — AI-Powered Study Companion</h3>
+                <p>Converts lecture notes and PDFs into adaptive quizzes using document parsing and LLM generation.
+                    Features real-time difficulty adjustment and personalized assessments. Currently under consideration
+                    for university-wide integration at TRU.</p>
+                <div class="card-meta">
+                    <div class="card-stack">
+                        <span>Next.js</span><span>React</span><span>Gemini</span><span>Firebase</span><span>Shadcn</span>
+                    </div>
+                    <a href="project-verbi.html" class="card-link">View Details →</a>
+                </div>
+            </div>
+
+            <!-- ACRES -->
+            <div class="listing-card rv">
+                <span class="card-tag tag-red">🏆 $4k Winner</span>
+                <h3>ACRES — AI Construction Site Manager</h3>
+                <p>1st Place Winner of the ACRES Innovation Competition ($4,000 Scholarship). Combines computer vision
+                    for PPE compliance detection (under 3s) with an AI chatbot that translates natural language into SQL
+                    queries. Automates task delegation via AI-generated Kanban workflows.</p>
+                <div class="card-meta">
+                    <div class="card-stack">
+                        <span>Next.js</span><span>Gemini</span><span>Groq</span><span>Computer Vision</span>
+                    </div>
+                    <a href="#" class="card-link">View Details →</a>
+                </div>
+            </div>
+
+            <!-- Trading Platform -->
+            <div class="listing-card rv">
+                <span class="card-tag tag-teal">FinTech · AI</span>
+                <h3>AI-Powered Trading & Investment Platform</h3>
+                <p>Engineered an analytics pipeline that generates professional investment reports from 50+ financial
+                    data sources. Integrated a Python backend for strategy backtesting and a Next.js frontend for
+                    interactive charting and portfolio visualization.</p>
+                <div class="card-meta">
+                    <div class="card-stack">
+                        <span>TypeScript</span><span>Python</span><span>Gemini</span><span>Llama</span><span>Next.js</span>
+                    </div>
+                    <a href="#" class="card-link">View Details →</a>
+                </div>
+            </div>
+
+            <!-- LifeLens -->
+            <div class="listing-card rv">
+                <span class="card-tag">Wellness · AI</span>
+                <h3>LifeLens — AI Journaling Companion</h3>
+                <p>A multimodal AI journaling platform that analyzes entries using text and image pipelines, then
+                    delivers personalized growth insights — turning daily reflection into data-driven self-improvement.
+                </p>
+                <div class="card-meta">
+                    <div class="card-stack">
+                        <span>React</span><span>TypeScript</span><span>Gemini API</span><span>Firebase</span>
+                    </div>
+                    <a href="#" class="card-link">View Details →</a>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- CTA -->
+    <section class="cta-banner">
+        <div class="wrap rv">
+            <h2>Have a project <span class="it">idea</span>?</h2>
+            <p>I'm always looking for the next challenge. Let's build something impactful together.</p>
+            <div class="btn-row">
+                <a href="index3.html#contact" class="btn btn-fill">Get in Touch →</a>
+                <a href="research.html" class="btn btn-ghost">View Research</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer>
+        <div class="wrap">
+            <div class="foot">
+                <span>© <span id="footYear"></span> Gursahib Singh. All rights reserved.</span>
+                <span>Built with intention ◆ Kamloops, BC</span>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script3.js"></script>
+</body>
+
+</html>

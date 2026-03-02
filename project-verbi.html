@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Verbi — AI Study Companion | Gursahib Singh</title>
+    <meta name="description"
+        content="Verbi transforms lecture notes and PDFs into adaptive quizzes using LLM generation. Built in a 72-hour hackathon sprint." />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Unbounded:wght@400;500;600;700;800;900&family=Newsreader:ital,wght@0,300;0,400;0,600;1,300;1,400;1,600&family=JetBrains+Mono:wght@300;400;500&display=swap"
+        rel="stylesheet" />
+    <link rel="stylesheet" href="style3.css" />
+</head>
+
+<body>
+
+    <!-- NAV -->
+    <nav class="nav" id="mainNav">
+        <div class="nav-inner">
+            <a href="index3.html" class="nav-logo">GS<span class="accent">.</span></a>
+            <div class="nav-links" id="navLinks">
+                <a href="index3.html">Home</a>
+                <a href="projects.html" style="color:var(--lime);">Projects</a>
+                <a href="research.html">Research</a>
+                <a href="index3.html#skills">Skills</a>
+                <a href="index3.html#contact" class="btn-talk">Let's Talk</a>
+            </div>
+            <button class="theme-toggle" id="themeToggle" aria-label="Toggle theme">
+                <span class="toggle-icon" id="themeIcon">🌙</span>
+                <span class="toggle-track"></span>
+                <span class="toggle-label">Theme</span>
+            </button>
+            <div class="burger" id="burger" aria-label="Menu">
+                <span></span><span></span><span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- DETAIL HERO -->
+    <section class="detail-hero">
+        <div class="wrap">
+            <a href="projects.html" class="back-link rv">← Back to Projects</a>
+            <span class="detail-tag rv">EdTech · GenAI · Hackathon</span>
+            <h1 class="rv">Verbi — AI-Powered Study Companion</h1>
+            <p class="detail-sub rv">
+                Verbi transforms passive study materials — lecture notes, textbooks, PDFs — into active learning
+                experiences. Using LLM-powered document parsing, it generates adaptive quizzes that adjust to each
+                student's proficiency level in real time.
+            </p>
+            <div class="detail-meta-row rv">
+                <div class="detail-meta-item">
+                    <div class="dm-label">Timeline</div>
+                    <div class="dm-val">Oct 2025 (72-hour Hackathon)</div>
+                </div>
+                <div class="detail-meta-item">
+                    <div class="dm-label">Role</div>
+                    <div class="dm-val">Full-Stack Lead & AI Architect</div>
+                </div>
+                <div class="detail-meta-item">
+                    <div class="dm-label">Team Size</div>
+                    <div class="dm-val">3 Developers</div>
+                </div>
+                <div class="detail-meta-item">
+                    <div class="dm-label">Status</div>
+                    <div class="dm-val" style="color:var(--lime);">Under Review for TRU-wide Adoption</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- GALLERY -->
+    <section class="detail-gallery">
+        <div class="wrap">
+            <div class="gallery-frame rv">
+                <!-- Replace with: <img src="verbi-screenshot.png" alt="Verbi dashboard" /> -->
+                <div class="gallery-placeholder">
+                    <span class="gp-icon">🖥️</span>
+                    <span>Project screenshot placeholder</span>
+                </div>
+            </div>
+            <div class="gallery-thumbnails rv">
+                <div class="thumb active"><span class="thumb-label">Dashboard</span></div>
+                <div class="thumb"><span class="thumb-label">Quiz View</span></div>
+                <div class="thumb"><span class="thumb-label">Analytics</span></div>
+                <div class="thumb"><span class="thumb-label">Upload</span></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- OVERVIEW -->
+    <section class="detail-section">
+        <div class="wrap">
+            <p class="sec-tag rv">// Overview</p>
+            <h2 class="sec-h rv">The <span class="it">problem</span> &amp; solution</h2>
+            <div class="sec-rule rv"></div>
+            <div class="detail-content rv">
+                <p>
+                    University students often struggle with passive study habits — rereading notes without actively
+                    engaging with the material. Research consistently shows that active recall (testing yourself) is far
+                    more effective than passive review, but creating practice questions is tedious and time-consuming.
+                </p>
+                <p>
+                    <strong>Verbi automates this entirely.</strong> Students upload their course materials — PDFs, slide
+                    decks, typed notes — and the AI parses the content, identifies key concepts, and generates a pool of
+                    adaptive quiz questions tailored to the specific subject matter.
+                </p>
+                <p>
+                    As the student answers questions, Verbi's difficulty engine adjusts in real time. Concepts the
+                    student has mastered appear less frequently, while weak areas are reinforced with additional
+                    questions from different angles. The result: more efficient study sessions and better retention.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- KEY FEATURES -->
+    <section class="detail-section">
+        <div class="wrap">
+            <p class="sec-tag rv">// Key Features</p>
+            <h2 class="sec-h rv">What makes Verbi <span class="it">different</span></h2>
+            <div class="sec-rule rv"></div>
+            <div class="feature-grid">
+                <div class="feature-card rv">
+                    <div class="feat-icon">📄</div>
+                    <h4>Smart Document Parsing</h4>
+                    <p>Upload PDFs, slides, or plain text. The LLM extracts key topics, definitions, relationships, and
+                        concepts — no manual input needed.</p>
+                </div>
+                <div class="feature-card rv">
+                    <div class="feat-icon">🧠</div>
+                    <h4>Adaptive Difficulty Engine</h4>
+                    <p>Questions dynamically adjust based on student performance using a spaced-repetition algorithm
+                        married with LLM-generated question variants.</p>
+                </div>
+                <div class="feature-card rv">
+                    <div class="feat-icon">📊</div>
+                    <h4>Progress Analytics</h4>
+                    <p>Visual dashboards show mastery by topic, study streaks, time spent, and predicted exam readiness
+                        — giving students confidence before test day.</p>
+                </div>
+                <div class="feature-card rv">
+                    <div class="feat-icon">✍️</div>
+                    <h4>AI Note Assistant</h4>
+                    <p>Ask follow-up questions about your uploaded materials. Verbi acts as a tutor, explaining concepts
+                        in simpler terms or providing examples.</p>
+                </div>
+                <div class="feature-card rv">
+                    <div class="feat-icon">🔄</div>
+                    <h4>Multi-format Questions</h4>
+                    <p>Generates MCQs, fill-in-the-blanks, short answer, and true/false — variety keeps sessions
+                        engaging and tests different recall pathways.</p>
+                </div>
+                <div class="feature-card rv">
+                    <div class="feat-icon">👥</div>
+                    <h4>Collaborative Decks</h4>
+                    <p>Share quiz decks with classmates. Study collaboratively with shared progress tracking and group
+                        leaderboards for motivation.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ARCHITECTURE -->
+    <section class="detail-section">
+        <div class="wrap">
+            <p class="sec-tag rv">// Architecture</p>
+            <h2 class="sec-h rv">How it's <span class="it">built</span></h2>
+            <div class="sec-rule rv"></div>
+            <div class="detail-content rv">
+                <p>
+                    Verbi follows a modern serverless architecture with a React/Next.js frontend, Firebase for auth and
+                    real-time database, and Google Gemini for the AI backbone. The system processes documents through a
+                    multi-step pipeline:
+                </p>
+                <ul>
+                    <li><strong>Document Ingestion:</strong> PDF.js parses uploaded documents into structured text
+                        chunks, preserving headings and hierarchy.</li>
+                    <li><strong>Concept Extraction:</strong> Gemini identifies key concepts, creates a topic graph, and
+                        assigns difficulty weights based on complexity.</li>
+                    <li><strong>Question Generation:</strong> For each concept, the LLM generates multiple question
+                        types with distractors for MCQs and rubrics for open-ended answers.</li>
+                    <li><strong>Adaptive Engine:</strong> A spaced-repetition scheduler (modified SM-2 algorithm)
+                        determines which questions to surface next based on past performance.</li>
+                    <li><strong>Feedback Loop:</strong> Student responses are fed back to refine difficulty estimates
+                        and generate targeted follow-up questions for weak areas.</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- TECH STACK -->
+    <section class="detail-section">
+        <div class="wrap">
+            <p class="sec-tag rv">// Tech Stack</p>
+            <h2 class="sec-h rv">Tools of <span class="it">the trade</span></h2>
+            <div class="sec-rule rv"></div>
+            <div class="stack-grid rv">
+                <div class="stack-item">
+                    <div class="si-name">Next.js 14</div>
+                    <div class="si-role">Frontend Framework</div>
+                </div>
+                <div class="stack-item">
+                    <div class="si-name">React 18</div>
+                    <div class="si-role">UI Components</div>
+                </div>
+                <div class="stack-item">
+                    <div class="si-name">Google Gemini</div>
+                    <div class="si-role">LLM / AI Engine</div>
+                </div>
+                <div class="stack-item">
+                    <div class="si-name">Firebase</div>
+                    <div class="si-role">Auth · Firestore · Storage</div>
+                </div>
+                <div class="stack-item">
+                    <div class="si-name">Shadcn/UI</div>
+                    <div class="si-role">Component Library</div>
+                </div>
+                <div class="stack-item">
+                    <div class="si-name">TypeScript</div>
+                    <div class="si-role">Type Safety</div>
+                </div>
+                <div class="stack-item">
+                    <div class="si-name">PDF.js</div>
+                    <div class="si-role">Document Parsing</div>
+                </div>
+                <div class="stack-item">
+                    <div class="si-name">Vercel</div>
+                    <div class="si-role">Deployment · Edge</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- RESULTS -->
+    <section class="detail-section">
+        <div class="wrap">
+            <p class="sec-tag rv">// Impact</p>
+            <h2 class="sec-h rv">Results &amp; <span class="it">recognition</span></h2>
+            <div class="sec-rule rv"></div>
+            <div class="detail-content rv">
+                <ul>
+                    <li>Built and fully functional within a <strong>72-hour hackathon sprint</strong> by a 3-person
+                        team.</li>
+                    <li>Processes documents up to <strong>200 pages</strong>, generating 50+ quiz questions per upload
+                        in under 30 seconds.</li>
+                    <li>Early user testing showed a <strong>35% improvement</strong> in quiz scores after one week of
+                        adaptive practice (pilot with 15 TRU students).</li>
+                    <li>Currently <strong>under review for university-wide integration</strong> by TRU's Learning
+                        Technology department.</li>
+                    <li>Presented at the <strong>TRU Computer Science Showcase</strong> to faculty and industry guests.
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA -->
+    <section class="cta-banner">
+        <div class="wrap rv">
+            <h2>Want to see <span class="it">more</span>?</h2>
+            <p>Check out my other projects or get in touch to discuss a collaboration.</p>
+            <div class="btn-row">
+                <a href="projects.html" class="btn btn-fill">All Projects ←</a>
+                <a href="index3.html#contact" class="btn btn-ghost">Contact Me</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer>
+        <div class="wrap">
+            <div class="foot">
+                <span>© <span id="footYear"></span> Gursahib Singh. All rights reserved.</span>
+                <span>Built with intention ◆ Kamloops, BC</span>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script3.js"></script>
+</body>
+
+</html>
