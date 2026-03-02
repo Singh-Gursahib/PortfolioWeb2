@@ -70,7 +70,7 @@ export default function ResearchCard({ research, delay = 0 }: ResearchCardProps)
 
                             {research.hasDetail && (
                                 <div className="r-card-link">
-                                    Full Case<ArrowRight size={16} strokeWidth={2.5} />
+                                    More Details<ArrowRight size={16} strokeWidth={2.5} />
                                 </div>
                             )}
                         </div>

@@ -4,10 +4,10 @@ export const research: Research[] = [
     {
         slug: 'privacy-preserving-ai-assistant',
         amount: '$6,000',
-        grantType: 'UREAP Grant',
+        grantType: 'Undergraduate Research Experience Award Program (UREAP)',
         title: 'Privacy-Preserving University AI Assistant',
         shortDescription:
-            'UREAP Grant — Developed a locally hosted GenAI assistant using open-source LLMs and RAG to securely index institutional documents.',
+            'Undergraduate Research Experience Award Program (UREAP) — Developed a locally hosted GenAI assistant using open-source LLMs and RAG.',
         listingDescription:
             'Developed a locally hosted GenAI assistant using open-source LLMs and RAG pipelines to securely index institutional documents. The system keeps all data on-campus, ensuring student privacy while providing intelligent answers to academic queries across multiple departments.',
         award: '🏅 Best Research Paper — ICICET 2025',
@@ -126,10 +126,10 @@ export const research: Research[] = [
     {
         slug: 'microbiology-curriculum-digitization',
         amount: '$5,000',
-        grantType: 'Department Grant',
+        grantType: 'Internal Research Fund (TRU)',
         title: 'Microbiology Curriculum Digitization',
         shortDescription:
-            "Created AI-enhanced simulations and conducted pedagogical studies on visual learning outcomes for TRU's Microbiology department.",
+            "Internal Research Fund (TRU) Grant — Created AI-enhanced simulations and pedagogical studies for TRU's Microbiology department.",
         listingDescription:
             "Created AI-enhanced simulations for TRU's Microbiology department and conducted pedagogical studies on visual learning outcomes. The platform transforms traditional lab exercises into interactive web-based experiments with guided walkthroughs and adaptive quizzes.",
         stack: ['Web Platform', 'AI Simulations', 'Pedagogy'],
@@ -239,11 +239,11 @@ export const research: Research[] = [
     {
         slug: 'health-analytics-web-platform',
         amount: '$4,000',
-        grantType: 'Dean of Science',
+        grantType: 'Research Assistant Grant',
         grantTypeColor: 'teal',
         title: 'Health Analytics Web Platform',
         shortDescription:
-            'Research Assistant to the Dean of Science — converted health-science research into a real-time full-stack tracking platform.',
+            'Research Assistant $4000 Grant — converted health-science research into a real-time full-stack tracking platform.',
         listingDescription:
             'Serving as Research Assistant to the Dean of Science, converted health-science research data into a real-time full-stack tracking platform. The dashboard visualizes longitudinal health metrics, enabling researchers to identify patterns and generate reports automatically.',
         stack: ['Full-Stack', 'Data Viz', 'Health Science', 'Real-time'],
@@ -253,10 +253,10 @@ export const research: Research[] = [
     {
         slug: 'ai-simulations-physics-education',
         amount: '$3,000',
-        grantType: 'URAF Grant',
+        grantType: 'Undergrad Research Apprenticeship Fund (URAF)',
         title: 'AI Simulations for Physics Education',
         shortDescription:
-            'URAF Grant — Built an agent-based multimodal system that transforms physics course material into interactive simulations.',
+            'Undergrad Research Apprenticeship Fund (URAF) — Built an agent-based multimodal system for physics course material.',
         listingDescription:
             'Built an agent-based multimodal system that transforms physics course material into interactive simulations. The AI agent ingests lecture slides, textbook content, and problem sets, then generates visual experiments students can manipulate to build intuition about physical concepts.',
         stack: ['Multimodal AI', 'Agent-based', 'Physics', 'Simulations'],
