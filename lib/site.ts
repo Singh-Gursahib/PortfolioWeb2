@@ -66,7 +66,7 @@ export const experiences: Experience[] = [
     },
     {
         org: 'Thompson Rivers Univ.',
-        date: 'Jan 2025 – Present',
+        date: 'Jan 2025 – Dec 2025',
         role: 'Teaching Assistant — DS&A / Mobile Dev',
         bullets: [
             'Mentored 140+ students across Data Structures, Algorithms, and Mobile Development courses.',
