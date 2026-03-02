@@ -1576,12 +1576,33 @@ body::after {
     margin-bottom: 1.5rem;
   }
 
+  .r-grant-details {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.4rem;
+    width: 100%;
+  }
+
   .r-grant-label {
     border-right: none;
     border-bottom: 1px solid var(--border);
     padding-right: 0;
-    padding-bottom: 0.25rem;
+    padding-bottom: 0.35rem;
     width: 100%;
+    display: block;
+  }
+
+  .r-grant-val {
+    font-size: 1rem;
+    padding-top: 0.2rem;
+  }
+
+  .r-card-award-icon {
+    position: absolute;
+    top: 2rem;
+    right: 1.5rem;
+    background: var(--black-2);
+    border-color: var(--lime);
   }
 
   .r-card-footer {
@@ -1598,9 +1619,16 @@ body::after {
   .r-card-link {
     width: 100%;
     justify-content: space-between;
-    padding: 0.8rem;
-    background: var(--lime-dim);
+    padding: 1rem 1.25rem;
+    background: var(--black-3);
+    border: 1px solid var(--border);
     border-radius: 4px;
+    margin-top: 1rem;
+  }
+
+  .r-card-link:active {
+    background: var(--lime-dim);
+    border-color: var(--lime);
   }
 
   .p-card-body {
