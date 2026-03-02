@@ -285,11 +285,11 @@ export default async function ProjectDetailPage({ params }: ProjectDetailProps) 
                                         <h4 style={{ fontFamily: 'var(--display)', fontSize: '0.95rem', fontWeight: 700, marginBottom: '0.5rem', marginTop: '1.5rem' }}>
                                             {sub.heading}
                                         </h4>
-                                        <p>{sub.content}</p>
+                                        <p dangerouslySetInnerHTML={{ __html: sub.content }} />
                                         {sub.bullets && (
                                             <ul>
                                                 {sub.bullets.map((b, k) => (
-                                                    <li key={k}>{b}</li>
+                                                    <li key={k} dangerouslySetInnerHTML={{ __html: b }} />
                                                 ))}
                                             </ul>
                                         )}
@@ -301,7 +301,7 @@ export default async function ProjectDetailPage({ params }: ProjectDetailProps) 
                                     <ScrollReveal className="detail-content">
                                         <ul>
                                             {section.bullets.map((bullet, j) => (
-                                                <li key={j}>{bullet}</li>
+                                                <li key={j} dangerouslySetInnerHTML={{ __html: bullet }} />
                                             ))}
                                         </ul>
                                     </ScrollReveal>
@@ -372,7 +372,7 @@ export default async function ProjectDetailPage({ params }: ProjectDetailProps) 
                                                 marginBottom: '1rem',
                                                 letterSpacing: '-0.02em',
                                             }}>
-                                                Key Hackathon Challenges
+                                                Key {project.timeline?.toLowerCase().includes('hackathon') ? 'Hackathon' : 'Technical'} Challenges
                                             </h3>
                                         </ScrollReveal>
                                         <ScrollReveal className="detail-content">

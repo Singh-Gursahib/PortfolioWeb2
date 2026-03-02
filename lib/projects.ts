@@ -467,7 +467,7 @@ export const projects: Project[] = [
         detailSub:
             'Project AURA (Vision-Controlled IoT-Enabled Robotic Arm) represents a breakthrough in accessible robotics. Developed during the IoT course at TRU, it bridges the gap between industrial-grade automation and human safety through a novel "No-Code" interaction paradigm.',
         timeline: 'Fall 2025 Semester',
-        role: 'Research Lead & Full-Stack Developer',
+        role: 'Research Lead & Developer',
         teamSize: '5 Researchers',
         status: 'Research Paper In Progress',
         statusHighlight: true,
@@ -522,7 +522,7 @@ export const projects: Project[] = [
                 subsections: [
                     {
                         heading: 'Collaborative Innovation',
-                        content: 'Project AURA is the result of an exceptional team effort at TRU under the guidance of <strong>Dr. Anthony Aighobahi</strong>. Team: Gursahib Singh, Deepansh Sharma, Yassh Singh, Noori Arora, and Vansh Sethi.',
+                        content: 'Project AURA is the result of an exceptional team effort at TRU under the guidance of <strong>Dr. Anthony Aighobahi</strong>. Team: <strong>Gursahib</strong>, Deepansh Sharma, Yassh Singh, Noori Arora, and Vansh Sethi.',
                     },
                 ],
             },
